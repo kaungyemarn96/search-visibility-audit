@@ -22,15 +22,17 @@ The mechanism is different from ranking. An answer engine is not choosing the be
 
 **Measured by:** whether the standing prompts return the site, what they cite, and whether what they say is correct.
 
-## AEO — declared to the crawler
+## AEO — the crawler files
 
-The layer most people skip. Five files that tell an AI crawler what the site covers, which pages are canonical, how to cite it, and which agents may read it.
+The layer most people skip. Five files that set out what the site covers, which pages are canonical, how it wants to be cited, and which crawlers may read it.
+
+Be exact about what each one does. `robots.txt` and the schema snippet are controls that crawlers and search engines document and honour. `llms.txt`, the AI overview page and the AI sitemap are groundwork: cheap to write and harmless, read by people and by developer tools, but no major assistant has confirmed that it reads them, so none of this is promised to a client as a cause of citation.
 
 This is infrastructure, not content. It is written once, revised when the site changes shape, and it is the cheapest of the three to deliver.
 
-**Delivered as:** five declaration files at the site root. Writing them is out of scope here; this audit reports whether they are present and correct.
+**Delivered as:** five crawler files at the site root. Writing them is out of scope here; this audit reports whether they are present and correct.
 
-**Measured by:** crawler access in logs, and by the citation format actually used when the site appears in an answer.
+**Measured by:** crawler access in logs, and by the citation format actually used when the site appears in an answer. The effect is measured, not assumed.
 
 ---
 
