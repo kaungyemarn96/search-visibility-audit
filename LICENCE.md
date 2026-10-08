@@ -1,4 +1,4 @@
-# Licence — Search Visibility Audit v1.0.0
+# Licence — Search Visibility Audit v1.0.1
 
 **Fee: nil.** No payment, no registration, no email, no expiry.
 
@@ -36,11 +36,11 @@ Search behaviour, answer engines and the tools that measure them all change. A s
 
 ## This has a date on it
 
-**Current as of September 2026.** It is a snapshot of how the author works, not a standard. Nobody is obliged to update it, and a copy in use two years from now will reflect 2026 practice.
+**Current as of October 2026.** It is a snapshot of how the author works, not a standard. Nobody is obliged to update it, and a copy in use two years from now will reflect 2026 practice.
 
 ## What is not in scope
 
-The answer-engine prompt set and the AI visibility dimension, the foundation build, the five crawler declaration files, the schema set, the weekly pulse, the quarterly sweep, and the bilingual pairing checks. None of those are included. `README.md` lists the boundary in full so it is stated rather than discovered.
+The answer-engine prompt set and the AI visibility dimension, the foundation build, the five crawler files, the schema set, the weekly pulse, the quarterly sweep, and the bilingual pairing checks. None of those are included. `README.md` lists the boundary in full so it is stated rather than discovered.
 
 ---
 

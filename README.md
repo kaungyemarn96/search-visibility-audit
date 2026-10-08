@@ -7,7 +7,9 @@ A free, complete audit workflow. It establishes where a site actually stands in 
 
 It is a complete procedure, not a trimmed sample of one. Every step it names, it also tells you how to run.
 
-**Version 1.0.0 · Current as of September 2026 · Free, no expiry, no signup**
+**Version 1.0.1 · Current as of October 2026 · Free, no expiry, no signup**
+
+**Changes in 1.0.1.** Reworded how the five crawler files are described, so that `robots.txt` and the schema are shown as real controls and the rest as low-cost groundwork, and updated the date. The procedure, the scoring and the licence terms are unchanged.
 
 ---
 
@@ -21,7 +23,7 @@ It assumes you can crawl a site and read analytics. It does not assume you have 
 
 **It does not score AI and answer visibility.** A fourth dimension exists for presence and accuracy in answer-engine responses, and it is not scored here, which is why the score totals 75 rather than 100. The report template keeps the row and marks it **Not measured** rather than dropping it, because an unmeasured dimension is not a failing one and a reader is entitled to know a fourth exists. If you need that number, it takes a standing prompt set run against each engine, which this package does not include.
 
-**It does not fix anything.** There is no foundation build here: no schema set, no five crawler declaration files, no metadata rewriting. The audit tells you what is wrong and in what order. Doing the work is separate.
+**It does not fix anything.** There is no foundation build here: no schema set, no five crawler files, no metadata rewriting. The audit tells you what is wrong and in what order. Doing the work is separate.
 
 **It does not run a cycle.** No weekly pulse, no quarterly sweep. This is the one-off establishing measurement, not the operating rhythm.
 

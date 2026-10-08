@@ -19,7 +19,7 @@ Follow `workflows/audit.md` in order. Eight steps, two gates, and a done-when te
 
 The two shapes it produces are in `references/scoring-rubric.md`: letter grades across five categories for the proposal stage, and a score across three dimensions for delivery. Run both. Running only one costs either the sale or the report.
 
-`references/three-layer-model.md` explains why search, answers and crawler declarations are one problem. Read it once before the first audit; it is not a step.
+`references/three-layer-model.md` explains why search, answers and the crawler files are one problem. Read it once before the first audit; it is not a step.
 
 ## The rules that carry it
 
